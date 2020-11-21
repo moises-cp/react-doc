@@ -73,7 +73,7 @@ class App extends Component {
 export default App;
 ```
 
-
+<br>
 
 Person.js
 
@@ -97,6 +97,8 @@ export default person;
 ```
 
 
+
+<br><br><br>
 
 
 
