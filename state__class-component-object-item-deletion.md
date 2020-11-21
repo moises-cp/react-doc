@@ -1,4 +1,4 @@
-# React Class Component State Object Item Deletion
+# Item Deletion on Class Component State Object 
 
 When one of the paragraph HTML element is clicked in the person's component:
 
