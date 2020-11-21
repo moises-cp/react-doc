@@ -14,8 +14,19 @@ class App extends Component {
     showPersons: false,
   };
 
+  /**
+   * Update the property showPerson that is in the state object
+   */
   togglePersonsHandler = () => {
+    /**
+     * Create a variable named doesShow and add as the value,
+     * the value from the propery showPersons that is in the state object
+     */
     const doesShow = this.state.showPersons;
+    /**
+     * Replace the value of the showPerson propery that is the
+     * state object with the value of the local variable named doesShow.
+     */
     this.setState({ showPersons: !doesShow });
   };
 
@@ -30,6 +41,10 @@ class App extends Component {
 
     return (
       <div className="App">
+        /**
+         * When the button is clicked, the onClick event handler will
+         * call the function/method togglePersonsHandler
+         */
         <button onClick={this.togglePersonsHandler}>
           Toggle Persons
         </button>

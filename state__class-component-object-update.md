@@ -80,8 +80,9 @@ class App extends Component {
                 key={person.id}
         		/**
         		 * Assign an annonimous arrow function to the prop named changed
-        		 * that will call nameChangedHandler() method with the
-        		 * event and provided id as the arguments
+        		 * that will be calling the nameChangedHandler() method with the
+        		 * event and provided id as the arguments when the prop is called
+        		 * in the Person component
         		 */
                 changed={(event) => this.nameChangedHandler(event, person.id)}
               />
