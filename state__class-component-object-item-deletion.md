@@ -1,6 +1,11 @@
 # React Class Component State Object Item Deletion
 
+When one of the paragraph HTML element is clicked in the person's component:
 
+1. The `onClick` event handler will call the `click` prop
+2. The `click` prop will call the `deletePersonHandler` method with the an `index` value as the argument
+   1. The `index` value will be used as the position of the object
+3. The `deletePersonHandler` method will take care of deleting the object that is in the specified position in the state `persons` object
 
 ```javascript
 /** 
