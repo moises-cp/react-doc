@@ -1,4 +1,4 @@
-# State Property Update To True or False
+# Property Update To True or False
 
 In this example, when the button `Toggle Persons` is clicked:
 
