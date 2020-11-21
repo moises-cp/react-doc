@@ -8,4 +8,4 @@
 
 - [Item Deletion](state__class-component-object-item-deletion.md)
 - [Item Update](./state__class-component-object-update.md)
-- [Update Property to True or False](state__update-to-true-or-false.md)
+- [Property Update to True or False](state__update-to-true-or-false.md)
