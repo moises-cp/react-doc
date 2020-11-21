@@ -1,6 +1,6 @@
 # React State Update To True or False
 
-In this example, when the button `Toggle Persons` is clicked, the  `togglePersonsHandler` method takes care of updating the state `showPerson` to `true` or `false` by using the [logical Not operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_NOT)
+In this example, when the button `Toggle Persons` is clicked, the  `togglePersonsHandler` method takes care of updating the state `showPerson` to `true` or `false` by using the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_NOT" target="_blank">logical Not operator</a>
 
 
 
