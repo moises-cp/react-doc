@@ -2,7 +2,7 @@
 
 
 
-## With Comments
+With Comments
 
 ```javascript
 import React, { Component } from "react";
@@ -83,12 +83,7 @@ export default App;
 
 
 
-<details>
-<summary>Code with Comments</summary>
-hoola
-</details>
-
-## With No Comments
+With No Comments
 
 ```javascript
 import React, { Component } from "react";
