@@ -6,7 +6,7 @@
 
 App.js
 
-```react
+```javascript
 import React, { Component } from "react";
 import "./App.css";
 import Person from "./Person/Person";
@@ -77,7 +77,7 @@ export default App;
 
 Person.js
 
-```react
+```javascript
 import React from "react";
 import "./Person.css";
 
@@ -104,7 +104,7 @@ export default person;
 
 App.js
 
-```react
+```javascript
 import React, { Component } from "react";
 import "./App.css";
 import Person from "./Person/Person";
