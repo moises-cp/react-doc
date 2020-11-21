@@ -6,6 +6,6 @@
 
 ### Class Component Object
 
-- [Item Deletion](state__class-component-object-item-deletion.md)
-- [Item Update](./state__class-component-object-update.md)
-- [Property Update to True or False](state__update-to-true-or-false.md)
+- [Item Deletion](state__item-deletion-on-class-component-state-object.md)
+- [Item Update](state__item-update-on-class-component-state-object.md)
+- [Property Update to True or False](state__property-update-to-true-or-false.md)
