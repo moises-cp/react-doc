@@ -1,4 +1,4 @@
-# Managing State Objects in React Class Component
+# Class Component Object Update
 
 
 
