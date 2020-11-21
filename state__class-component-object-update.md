@@ -1,6 +1,10 @@
 # Class Component Object Update
 
+In this example, when the user type anything in the input field that is in the person's component:
 
+1. The input field `onChange` event handler will trigger the function that is in the props named `changed`
+2. The `changed` prop will call the function `nameChangedHandler` with the provided arguments
+3. `nameChangedHandler` will take care of updating the state object named `persons`
 
 ```javascript
 /**
