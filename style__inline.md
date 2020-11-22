@@ -32,7 +32,7 @@ const style = {
 
 ```javascript
 /**
- *	App.js
+ *  App.js
  */
 
 import React, { Component } from "react";
