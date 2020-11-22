@@ -2,7 +2,7 @@
 
 ## Conditional
 
-- [Message](conditional__messalge.md)
+- [Message](conditional__message.md)
 
 
 
