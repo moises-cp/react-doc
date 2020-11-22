@@ -41,7 +41,7 @@ import "./App.css";
 class App extends Component {
   render() {
     /**
-     *	Create an object for the inline styles that will be used
+     *  Create an object for the inline styles that will be need it
      */
     const style = {
       backgroundColor: "white",
@@ -54,7 +54,7 @@ class App extends Component {
     return (
       <div className="App">
         /**
-         *	Assign the object with the styles as the value of the style attribute
+         *  Assign the object with the styles as the value of the style attribute
          */
         <button style={style}>
           Toggle Persons
