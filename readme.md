@@ -14,4 +14,4 @@
 
 ## Styles
 
-- [Inline](style_inline.md)
+- [Inline](style__inline.md)
