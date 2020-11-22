@@ -16,7 +16,7 @@
 - [Item Update](state__item-update-on-class-component-state-object.md)
 - [Property Update to True or False](state__property-update-to-true-or-false.md)
 
-<br><br>
+<br>
 
 ## Styles
 
