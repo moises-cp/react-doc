@@ -2,29 +2,29 @@
 
 To use inline styles:
 
-- Create an object within `render(){}` block and add all the styles to it.
+1. Create an object within `render(){}` block and add all the styles to it.
 
-  ```javascript
-  const style = {
-    backgroundColor: "white",
-    font: "inherit",
-    border: "1px solid blue",
-    padding: "8px",
-    cursor: "pointer",
-  };
-  ```
+```javascript
+const style = {
+  backgroundColor: "white",
+  font: "inherit",
+  border: "1px solid blue",
+  padding: "8px",
+  cursor: "pointer",
+};
+```
 
-- Add the object with styles as a value to the style attribute
+2. Add the object with styles as a value to the style attribute
 
-  ```javascript
-  <button style={style}>
-    Toggle Persons
-  </button>
-  ```
+```javascript
+<button style={style}>
+  Toggle Persons
+</button>
+```
 
-  
 
-  
+
+
 
 <br>
 
