@@ -1,4 +1,6 @@
-# Property Update To True or False
+# State Property Update
+
+## Example 1 - Update to True or False
 
 In this example, when the button `Toggle Persons` is clicked:
 
@@ -57,6 +59,39 @@ class App extends Component {
 }
 
 export default App;
+```
+
+
+
+<br>
+
+## Example 2 - Update with Event Target Value
+
+```javascript
+// State Object
+state = {
+  userInput: ''
+}
+
+/** 
+ * This method will update the property userInput in the state object
+ * The caller does not have to pass the event object.  By defining event
+ * as the parameters, the method will have access to it when called.
+ */
+inputChangedHandler = ( event ) => {
+  // Overwrite the property userInput in the state object 
+  this.setState( { userInput: event.target.value } );
+}
+
+<input
+  type="text"
+  // Every time the user type, call the method inputChangedHandler
+  onChange={this.inputChangedHandler}
+  // Replace the value of the input field with the userInput property from the state object
+  value={this.state.userInput} 
+/>
+
+
 
 ```
 

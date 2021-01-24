@@ -1,5 +1,15 @@
 # Table of Contents
 
+
+
+## Component
+
+- [Class Vs Function](component__class-vs-function.md)
+
+
+
+
+
 ## Conditional
 
 - [Message](conditional__message.md)
@@ -20,7 +30,7 @@
 
 - [Item Deletion](state__item-deletion-on-class-component-state-object.md)
 - [Item Update](state__item-update-on-class-component-state-object.md)
-- [Property Update to True or False](state__property-update-to-true-or-false.md)
+- [Property Update](state__property-update.md)
 
 <br>
 

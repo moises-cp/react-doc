@@ -1,4 +1,6 @@
-# Item Deletion on Class Component State Object 
+# State Property Deletion
+
+## Example 1 - Delete Object from Array
 
 When one of the paragraph HTML element is clicked in the person's component:
 
@@ -100,5 +102,37 @@ const person = (props) => {
 };
 
 export default person;
+```
+
+
+
+<br><br>
+
+## Example 2 - Delete Character from String
+
+
+
+```javascript
+state = {
+  userInput: ''
+}
+
+deleteCharHandler = ( index ) => {
+  const text = this.state.userInput.split('');
+  text.splice(index, 1);
+  const updatedText = text.join('');
+  this.setState({userInput: updatedText});
+}
+
+
+const charList = this.state.userInput.split('').map((ch, index) => {
+  return <Char 
+    character={ch} 
+    key={index}
+    clicked={() => this.deleteCharHandler(index)} />;
+});
+
+
+{charList}
 ```
 

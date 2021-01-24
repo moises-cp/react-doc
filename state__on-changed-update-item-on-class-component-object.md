@@ -1,4 +1,4 @@
-# Item Update on Class Component State Object
+# On Changed Update Item on Class Component State Object
 
 In this example, when the user type anything in the input field that is in the person's component:
 
