@@ -28,9 +28,9 @@
 
 ### Class Component Object
 
-- [Item Deletion](state__item-deletion-on-class-component-state-object.md)
-- [Item Update](state__item-update-on-class-component-state-object.md)
-- [Property Update](state__property-update.md)
+- [Item Deletion](state__delete.md)
+- [On Changed Update Item - Class Component](state__on-changed-update-item-on-class-component-object.md)
+- [Property Update](state__update-property.md)
 
 <br>
 

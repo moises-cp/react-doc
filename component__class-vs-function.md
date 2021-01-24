@@ -1,10 +1,10 @@
-Class Component Vs Function Component
+# Class Component Vs Function Component
 
 
 
 ## Function Component
 
-```react
+```javascript
 import React from 'react';
 
 const componentName = (prop) => {
@@ -24,7 +24,7 @@ export default componentName;
 
 ## Class Component
 
-```react
+```javascript
 import React, { Component } from 'react';
 
 class ComponentName extends Component {
