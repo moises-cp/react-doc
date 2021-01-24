@@ -1,30 +1,24 @@
 # Class Component Vs Function Component
 
-
-
 ## Function Component
 
 ```javascript
-import React from 'react';
+import React from "react";
 
 const componentName = (prop) => {
-    return (
-        <div>
-        	<p>Something to return!</p>
-        </div>
-    );
-}
+  return (
+    <div>
+      <p>Something to return!</p>
+    </div>
+  );
+};
 
 export default componentName;
 ```
 
-- Recommended for when the component does not need to have *state*.
+- Recommended for when the component does not need to have _state_.
 
-
-
-
-
-
+<br><br><br><br>
 
 ## Class Component
 
@@ -41,4 +35,4 @@ class ComponentName extends Component {
 export default ComponentName;
 ```
 
-- Recommended for when the component will need a *state*.
+- Recommended for when the component will need a _state_.
