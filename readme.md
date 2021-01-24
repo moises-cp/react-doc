@@ -6,26 +6,26 @@
 
 - [Class Vs Function](component__class-vs-function.md)
 
-<br><br><br>
+<br><br>
 
 ## Conditional
 
 - [Message](conditional__message.md)
 
-<br><br><br>
+<br><br>
 
 ## Iterations
 
 - [Map](iteration__map.md)
 
-<br><br><br>
+<br><br>
 
 ## Patterns
 
 - [Higher-Order Component](pattern__higher-order-component.md)
 - [Render Props](pattern__render-prop.md)
 
-<br><br><br>
+<br><br>
 
 ## State Management
 
@@ -45,13 +45,13 @@
 
 - [State](State__react-hook.md)
 
-<br><br><br>
+<br><br>
 
 ## Styles
 
 - [Inline](style__inline.md)
 
-<br><br><br>
+<br><br>
 
 ## Variables
 
