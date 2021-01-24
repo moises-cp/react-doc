@@ -16,7 +16,9 @@ const componentName = (prop) => {
 export default componentName;
 ```
 
-- Recommended for when the component does not need to have _state_.
+- State
+  - Recommended for when the component does not need to use the traditional _state_.
+  - It can use *React Hooks*.
 
 <br><br><br>
 
@@ -35,4 +37,7 @@ class ComponentName extends Component {
 export default ComponentName;
 ```
 
-- Recommended for when the component will need a _state_.
+- State
+  - It can use traditional component state management.
+    - `sate = {};`
+    - `*this*.setState({ property: value });`

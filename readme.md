@@ -6,25 +6,32 @@
 
 - [Class Vs Function](component__class-vs-function.md)
 
-
-
-
+<br><br><br>
 
 ## Conditional
 
 - [Message](conditional__message.md)
 
-
+<br><br><br>
 
 ## Iterations
 
 - [Map](iteration__map.md)
 
+<br><br><br>
 
+## Patterns
 
-<br>
+- [Higher-Order Component](pattern__higher-order-component.md)
+- [Render Props](pattern__render-prop.md)
+
+<br><br><br>
 
 ## State Management
+
+- [General Information](state__general.md)
+
+  <br>
 
 ### Class Component Object
 
@@ -34,6 +41,19 @@
 
 <br>
 
+### Hooks
+
+- [State](State__react-hook.md)
+
+<br><br><br>
+
 ## Styles
 
 - [Inline](style__inline.md)
+
+<br><br><br>
+
+## Variables
+
+- [JSX as Variable Value](variable__jsx.md)
+
