@@ -18,7 +18,7 @@ export default componentName;
 
 - Recommended for when the component does not need to have _state_.
 
-<br><br><br><br>
+<br><br><br>
 
 ## Class Component
 
