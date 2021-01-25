@@ -49,7 +49,12 @@
 
 ## Styles
 
-- [Inline](style__inline.md)
+<br>
+
+### Inline
+
+- [General Information](style__inline.md)
+- [Dynamic Update](style__inline-dynamic.md)
 
 <br><br>
 
