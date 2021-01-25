@@ -1,7 +1,5 @@
 # Table of Contents
 
-
-
 ## Component
 
 - [Class Vs Function](component__class-vs-function.md)
@@ -49,16 +47,17 @@
 
 ## Styles
 
-<br>
-
 ### Inline
 
 - [General Information](style__inline.md)
 - [Dynamic Update](style__inline-dynamic.md)
+
+## Class
+
+- [Dynamic Class Name](sytle__class-dynamic)
 
 <br><br>
 
 ## Variables
 
 - [JSX as Variable Value](variable__jsx.md)
-
