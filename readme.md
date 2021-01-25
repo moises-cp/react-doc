@@ -29,15 +29,11 @@
 
 - [General Information](state__general.md)
 
-  <br>
-
 ### Class Component Object
 
 - [Item Deletion](state__delete.md)
 - [On Changed Update Item - Class Component](state__on-changed-update-item-on-class-component-object.md)
 - [Property Update](state__update-property.md)
-
-<br>
 
 ### Hooks
 
