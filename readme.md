@@ -48,7 +48,7 @@
 - [General Information](style__inline.md)
 - [Dynamic Update](style__inline-dynamic.md)
 
-## Class
+### Class
 
 - [Dynamic Class Name](sytle__class-dynamic.md)
 
