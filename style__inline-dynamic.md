@@ -1,7 +1,5 @@
 # Dynamic Inline Style
 
-<br>
-
 ## Example
 
 ```javascript
