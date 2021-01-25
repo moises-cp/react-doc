@@ -1,5 +1,13 @@
 # Inline Style
 
+## Limitations
+
+- Unable to set sudo styles like: hover, active, etc.
+
+<br><br>
+
+## Usage
+
 To use inline styles:
 
 1. Create an object within `render(){}` block and add all the styles to it.
@@ -28,7 +36,7 @@ const style = {
 
 <br>
 
-## Example
+## Example 1
 
 ```javascript
 /**
