@@ -54,7 +54,7 @@
 
 ## Class
 
-- [Dynamic Class Name](sytle__class-dynamic)
+- [Dynamic Class Name](sytle__class-dynamic.md)
 
 <br><br>
 
