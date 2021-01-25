@@ -43,14 +43,14 @@
 
 ## Styles
 
+### Class
+
+- [Dynamic Class Name](sytle__class-dynamic.md)
+
 ### Inline
 
 - [General Information](style__inline.md)
 - [Dynamic Update](style__inline-dynamic.md)
-
-### Class
-
-- [Dynamic Class Name](sytle__class-dynamic.md)
 
 <br><br>
 
