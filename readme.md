@@ -37,8 +37,6 @@
 
 ### Hooks
 
-test
-
 - [State](./doc/State__react-hook.md)
 
 <br><br>
