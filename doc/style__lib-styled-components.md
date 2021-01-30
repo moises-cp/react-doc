@@ -3,11 +3,8 @@
 - [Resources](#resources)
 - [Usage](#usage)
   * [Examples 1 - Style Div](#examples-1---style-div)
-    + [Before](#before)
-    + [After](#after)
   * [Example 2 - Style Button](#example-2---style-button)
-    + [Before](#before-1)
-    + [After](#after-1)
+  * [Example 3 - Conditional Styling](#example-3---conditional-styling)
 
 <br>
 
