@@ -1,5 +1,13 @@
 # Inline Style
 
+- [Limitations](#limitations)
+- [Usage](#usage)
+- [Example 1](#example-1)
+- [Tools](#tools)
+  * [Radium](#radium)
+
+<br><br>
+
 ## Limitations
 
 - Unable to set sudo styles like: hover, active, etc.
@@ -73,6 +81,60 @@ class App extends Component {
 }
 
 export default App;
-
 ```
+
+
+
+<br><br>
+
+
+
+## Tools
+
+### Radium
+
+- Description
+  
+  - Radium is a set of tools to manage inline styles on React elements. It gives you powerful styling capabilities without CSS.
+  
+- Installation
+  - `npm install --save radium`
+  - [GitHub](https://github.com/formidablelabs/radium)
+  - [NPM](https://www.npmjs.com/package/radium)
+  
+- Note
+  
+  - This package it is still maintain but it will not be adding new features.  Possibly discontinued.
+  
+- Usage
+
+  - Hover
+
+    - ```javascript
+      const sytle = {
+      	backgroundColor: 'green',
+          color: 'white',
+          /** 
+           * This is where Radium comes into place 
+           * by allowing the addition of hover state to this 
+           * style object.
+           */
+          ':hover': {
+              backgroundColor: 'lightgreen',
+              color: 'white'
+          }
+      }
+      
+      /** 
+       * Example of how to dynamically update the 
+       * hover properties values in some other
+       * part of the code.
+       */
+      style[':hover'] = {
+          backgroundColor: 'lightred',
+          color: 'black'
+      }
+      ```
+
+      
 
