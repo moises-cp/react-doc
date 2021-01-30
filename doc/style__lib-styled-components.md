@@ -97,7 +97,7 @@ export default person;
 
 ```
 
-
+<br>
 
 
 
@@ -153,9 +153,7 @@ import "./App.css";
 import Person from "./Person/Person";
 
 /**
- * - Create a style component for the button and
- *   add the styles to it.
- * - Add the styles to it
+ * - Create a style component for the button and add the styles to it.
  */
 const StyledButton = styled.button`
   background-color: green;
@@ -181,10 +179,10 @@ class App extends Component {
       <div className="App">
         <h1>Hi, I'm a React App</h1>
         <p className={ classes.join(' ') }>This is really working!</p>
-		/**
-		 * - Replace button tag with StyledButton 
-		 * - Removed style={style} because is no longer relevant
-		 */
+        /**
+         * - Replace button tag with StyledButton 
+         * - Removed style={style} because is no longer relevant
+         */
         <StyledButton onClick={this.togglePersonsHandler}>
           Toggle Persons
         </StyledButton>
