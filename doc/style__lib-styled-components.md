@@ -2,7 +2,7 @@
 - [Installation](#installation)
 - [Resources](#resources)
 - [Usage](#usage)
-  * [Examples 1 - Style Div](#examples-1---style-div)
+  * [Example 1 - Style Div](#example-1---style-div)
   * [Example 2 - Style Button](#example-2---style-button)
   * [Example 3 - Conditional Styling](#example-3---conditional-styling)
 
@@ -25,7 +25,7 @@
 
 ## Usage
 
-### Examples 1 - Style Div
+### Example 1 - Style Div
 
 Before
 
