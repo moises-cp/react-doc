@@ -30,7 +30,7 @@
 
 ### Examples 1 - Style Div
 
-#### Before
+Before
 
 ```javascript
 import React from "react";
@@ -53,7 +53,7 @@ export default person;
 
 
 
-#### After
+After
 
 ```javascript
 import React from "react";
@@ -103,7 +103,7 @@ export default person;
 
 ### Example 2 - Style Button
 
-#### Before
+Before
 
 ```javascript
 import React, { Component } from "react";
@@ -127,8 +127,6 @@ class App extends Component {
 
     return (
       <div className="App">
-        <h1>Hi, I'm a React App</h1>
-        <p className={ classes.join(' ') }>This is really working!</p>
         <button style={style} onClick={this.togglePersonsHandler}>
           Toggle Persons
         </button>
@@ -143,7 +141,7 @@ export default App;
 
 
 
-#### After
+After
 
 ```javascript
 import React, { Component } from "react";
@@ -177,8 +175,6 @@ class App extends Component {
 
     return (
       <div className="App">
-        <h1>Hi, I'm a React App</h1>
-        <p className={ classes.join(' ') }>This is really working!</p>
         /**
          * - Replace button tag with StyledButton 
          * - Removed style={style} because is no longer relevant
@@ -194,4 +190,103 @@ class App extends Component {
 
 export default App;
 ```
+
+<br>
+
+### Example 3 - Conditional Styling
+
+Before
+
+```javascript
+import React, { Component } from "react";
+import styled from 'styled-components';
+import "./App.css";
+import Person from "./Person/Person";
+
+const StyledButton = styled.button`
+  background-color: green;
+  color: white;
+  font: inherit;
+  border: 1px solid blue;
+  padding: 8px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: lightgreen;
+    color: black;
+  }
+`;
+
+class App extends Component {
+  /* ...code */
+
+  render() {
+    /* ...code */
+
+    return (
+      <div className="App">
+        <StyledButton onClick={this.togglePersonsHandler}>
+          Toggle Persons
+        </StyledButton>
+        {persons}
+      </div>
+    );
+  }
+}
+
+export default App;
+
+```
+
+
+
+After
+
+```javascript
+import React, { Component } from "react";
+import styled from 'styled-components';
+import "./App.css";
+import Person from "./Person/Person";
+
+/** 
+ * Set a ternary statement on backgrond-color to set the color
+ * based on the prop named alt.
+ */
+const StyledButton = styled.button`
+  background-color: ${props => props.alt ? 'red' : 'green'};
+  color: white;
+  font: inherit;
+  border: 1px solid blue;
+  padding: 8px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: lightgreen;
+    color: black;
+  }
+`;
+
+class App extends Component {
+  /* ...code */
+
+  render() {
+    /* ...code */
+
+    return (
+      <div className="App">
+        // Added a prop to pass true or false based on showPersons state
+        <StyledButton alt={this.state.showPersons} onClick={this.togglePersonsHandler}>
+          Toggle Persons
+        </StyledButton>
+        {persons}
+      </div>
+    );
+  }
+}
+
+export default App;
+
+```
+
+
 
