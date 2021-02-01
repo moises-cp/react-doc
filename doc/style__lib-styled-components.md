@@ -8,6 +8,14 @@
 
 <br>
 
+## Description
+- It mix JavaScript and CSS
+- Pros
+    - Conditional styling
+    - More flexibility and options compared to React inline styles
+    - Scope styling
+- Cons
+    - IDE style low support like: auto completion, formatting, etc.
 
 ## Installation
 

@@ -52,6 +52,10 @@
 - [General Information](./doc/style__inline.md)
 - [Dynamic Update](./doc/style__inline-dynamic.md)
 
+### Modules
+
+- [Overview](./doc/style__module.md)
+
 ### Tools
 
 - [Styled Components](./doc/style__lib-styled-components.md)
